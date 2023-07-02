@@ -3,4 +3,4 @@ from django.shortcuts import render
 
 
 def home(request):
-    return render(request, 'default/Index.html')
+    return render(request, 'default/index.html')

@@ -94,10 +94,10 @@ USE_L10N = True
 USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
-STATIC_ROOT = '/home/a/achifonlin/www/achif_online/static/'
+STATIC_ROOT = str(os.getenv("STATIC_ROOT"))
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (
-    '/home/a/achifonlin/www/public_html/static',
+    str(os.getenv("STATICFILES_DIRS")),
 )
 
 # Default primary key field type

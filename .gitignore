@@ -1,9 +1,12 @@
 *.log
+.idea/*
+.www/*
 .htaccess
 access_log
 error_log
 achif_online/.env
 cgi-bin/*
+*/static/*
 */__pycache__/
 */__pycache__/*
 */migrations/__pycache__/

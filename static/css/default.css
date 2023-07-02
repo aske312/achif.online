@@ -1,31 +1,31 @@
-/*** MAIN PAGE ***/
-html{
-    background: url("/static/img/default.png") 50% 0 no-repeat fixed;
-    color: white;
-    height: 650px;
-    padding: 100px 0 0 0;
+.u-section-1 .u-sheet-1 {
+  min-height: 711px;
 }
-:root {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
+
+.u-section-1 .u-image-1 {
+  width: 570px;
+  height: 268px;
+  margin: 93px auto 60px;
 }
-body {
-    height: 100vh;
-    overflow: hidden;
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 697px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 540px;
+    height: 254px;
+  }
 }
-.footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding: 2rem;
-    background: silver;
-    color: white;
-    font-weight: 500;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.2rem;
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 603px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 340px;
+    height: 160px;
+  }
 }
