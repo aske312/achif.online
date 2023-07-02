@@ -94,7 +94,7 @@ USE_L10N = True
 USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
-STATIC_ROOT = str(os.getenv("STATIC_ROOT"))
+STATIC_ROOT = '/home/a/achifonlin/www/achif_online/static/'
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (
     str(os.getenv("STATICFILES_DIRS")),
